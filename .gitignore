@@ -4,3 +4,6 @@ node_modules
 #cypress
 tests/cypress/videos/
 tests/cypress/screenshots/
+
+# misc
+.DS_Store
