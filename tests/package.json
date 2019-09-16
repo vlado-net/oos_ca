@@ -1,14 +1,20 @@
 {
   "name": "tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "OpenOceanStudio: Crew Applications",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "open": "cypress open --env RUN_AGAINST=local",
+    "test": "cypress run --env RUN_AGAINST=local"
   },
-  "author": "",
+  "author": "Vladyslav Korobko",
   "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "commonPath": "cypress/support/step_definitions"
+  },
   "devDependencies": {
-    "cypress": "^3.4.1"
+    "cypress": "3.4.1",
+    "cypress-cucumber-preprocessor": "1.16.0"
   }
 }

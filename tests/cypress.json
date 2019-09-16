@@ -1,1 +1,17 @@
-{}
+{
+    "baseUrl": "http://localhost:3001",
+    "ignoreTestFiles": "*.js",
+    "integrationFolder": "cypress/integration",
+    "pluginsFile": "cypress/plugins",
+    "screenshotsFolder": "cypress/screenshots ",
+    "supportFile": "cypress/support",
+    "videosFolder": "cypress/videos",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1680,
+    "viewportHeight": 1050,
+    "defaultCommandTimeout": 10000,
+    "requestTimeout": 10000,
+    "waitForAnimations": true,
+    "videoUploadOnPasses": false,
+    "testFiles": "**/*.{feature,features}"
+}
