@@ -1,4 +1,5 @@
 Feature: Hiring workflow
+    I'm as a recruiter want be able to move candidate tile between different columns.
 
 Scenario: Change a candidate status from Applied to Interviewing and then to Hired column
     Given I open the main page
